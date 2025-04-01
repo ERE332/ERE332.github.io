@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Linktree</title>
+    <style>
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0; }
+            50% { text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0; }
+            100% { text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0; }
+        }
+        
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .link {
+            margin: 15px 0;
+            padding: 12px 25px;
+            border: 2px solid #0f0;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #0f0;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            animation: glow 1.5s infinite alternate;
+        }
+        .link:hover {
+            background-color: #0f0;
+            color: #000;
+            transform: scale(1.1);
+        }
+        .theme-switcher {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid #0f0;
+            background-color: #000;
+            color: #0f0;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .theme-switcher:hover {
+            background-color: #0f0;
+            color: #000;
+            transform: scale(1.1);
+        }
+        .art {
+            font-size: 14px;
+            line-height: 12px;
+            margin-bottom: 20px;
+            white-space: pre;
+            animation: glow 2s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="art">
+            <pre>
+                ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+                ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+                ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀█░▌ ▀▀▀▀▀▀▀▀▀█░▌ ▀▀▀▀▀▀▀▀▀█░▌
+                ▐░▌          ▐░▌       ▐░▌▐░▌                    ▐░▌          ▐░▌          ▐░▌
+                ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄█░▌ ▄▄▄▄▄▄▄▄▄█░▌          ▐░▌
+                ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌ ▄▄▄▄▄▄▄▄▄█░▌
+                ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀█░█▀▀ ▐░█▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀█░▌ ▀▀▀▀▀▀▀▀▀█░▌▐░░░░░░░░░░░▌
+                ▐░▌          ▐░▌     ▐░▌  ▐░▌                    ▐░▌          ▐░▌▐░█▀▀▀▀▀▀▀▀▀ 
+                ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌      ▐░▌ ▐░█▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄█░▌ ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ 
+                ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+                 ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ 
+            </pre>
+        </div>
+        <a href="https://example.com" class="link">Example Link 1</a>
+        <a href="https://example.com" class="link">Example Link 2</a>
+        <a href="https://example.com" class="link">Example Link 3</a>
+        <button class="theme-switcher" onclick="switchTheme()">Switch Theme</button>
+    </div>
+
+    <script>
+        function switchTheme() {
+            document.body.classList.toggle('light-mode');
+            let links = document.querySelectorAll('.link');
+            let button = document.querySelector('.theme-switcher');
+            if (document.body.classList.contains('light-mode')) {
+                document.body.style.backgroundColor = '#fff';
+                document.body.style.color = '#000';
+                links.forEach(link => {
+                    link.style.borderColor = '#000';
+                    link.style.color = '#000';
+                    link.style.animation = 'none';
+                });
+                button.style.borderColor = '#000';
+                button.style.color = '#000';
+            } else {
+                document.body.style.backgroundColor = '#000';
+                document.body.style.color = '#0f0';
+                links.forEach(link => {
+                    link.style.borderColor = '#0f0';
+                    link.style.color = '#0f0';
+                    link.style.animation = 'glow 1.5s infinite alternate';
+                });
+                button.style.borderColor = '#0f0';
+                button.style.color = '#0f0';
+            }
+        }
+    </script>
+</body>
+</html>
