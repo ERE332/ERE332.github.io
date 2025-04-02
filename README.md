@@ -66,6 +66,5 @@ Port scanner používejte pouze na vlastní zařízení
 Licence
 MIT License - volně k použití a modifikaci
 
-Demo: https://yourusername.github.io/esp32-flasher
 Report issues: Issues section
 
